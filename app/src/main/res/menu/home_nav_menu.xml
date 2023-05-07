@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_grads"
+        android:icon="@drawable/ic_grads"
+        android:title="Mezunlar" />
+    <item
+        android:id="@+id/nav_announcements"
+        android:icon="@drawable/ic_announcements"
+        android:title="Duyurular" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_gallery"
+        android:title="Galeri" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_person_pin"
+        android:title="Profilim" />
+
+
+</menu>

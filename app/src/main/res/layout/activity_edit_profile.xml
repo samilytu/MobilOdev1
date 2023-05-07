@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".EditProfileActivity">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"
+            app:titleTextColor="?colorOnPrimary" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="16dp"
+            android:id="@+id/imageView"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_placeholder"
+            app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full" />
+
+        <Button
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/buttonPickImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Profil Resmi Seç" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="İsminiz"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Soyisminiz"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextEntranceYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Giriş Yılı"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextGradYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Mezuniyet Yılı"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/textViewEducationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Eğitim Bilgileri"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/spinnerEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/textViewWorkTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="İş Bilgileri"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextWorkCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Şirket" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextWorkCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Ülke" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextWorkCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Şehir" />
+
+        <TextView
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/textViewSocialMediaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sosyal Medya Bilgileri"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewWork" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Instagram Kullanıcı Adı" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextTwitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Twitter Kullanıcı Adı" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextLinkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Linkedin Kullanıcı Adı" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Facebook Kullanıcı Adı" />
+
+        <TextView
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/textViewContactTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="İletişim Bilgileri"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutSocialMediaFacebook" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:hint="E-posta"
+            android:inputType="none" />
+
+        <EditText
+            android:layout_marginHorizontal="16dp"
+
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Telefon Numarası (+90 5XX XXX XX XX)"
+            android:inputType="phone"/>
+
+    </LinearLayout>
+
+</ScrollView>

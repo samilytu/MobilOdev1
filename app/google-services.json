@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "906215373145",
+    "project_id": "fb-grad-app-samil",
+    "storage_bucket": "fb-grad-app-samil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906215373145:android:d4c1409c53e404a2f57448",
+        "android_client_info": {
+          "package_name": "com.samilozturk.grad_samil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906215373145-3dt97giv92hmrh2p3uuf7t3i650g2q6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8AqwvJKUEkbUd5Dj5NQZ6_aeAdGoSZJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906215373145-3dt97giv92hmrh2p3uuf7t3i650g2q6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
